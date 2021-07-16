@@ -22,3 +22,4 @@ print(sale)
 print(f'현재 달러 환율은 {result}원 -{sale} 입니다.')
 #exchangeList > li.on > a.head.usd > div > span.value
 #content > div.article2 > div.section1 > div.group1 > table > tbody > tr.down.bold > td:nth-child(2)
+#둘 다 가능하지만 짧은 것을 선택
