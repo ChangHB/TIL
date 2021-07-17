@@ -37,8 +37,3 @@ message_url = f'{URL}/sendMessage?chat_id={chat_id}&text={text2}'
 
 
 requests.get(message_url)
-
-
-
-
-
