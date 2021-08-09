@@ -41,4 +41,3 @@ c_list
 c_list2 = [n**3 for n in numbers]
 
 #list.remove() 결과값을 리스트 표현문으로 어떻게 쓸까...?
-
