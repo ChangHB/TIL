@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .em {
+      font-size: 1.5em;
+    }
+    .rem {
+      font-size: 1.5rem;
+    }
+    p ~ .color-blue{
+      color: blue;
+    }
+
+    p + p.color-red{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p>p 아래 색은 무엇인가</p>
+  <h1 class="color-blue color-red">color1</h1>
+  <span class="color-blue color-red">color2</span>
+  <hr>
+  <p class="color-blue color-red">color3</p>
+  <p class="color-blue color-red">color4</p>
+</body>
+</html>
