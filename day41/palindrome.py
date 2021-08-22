@@ -13,7 +13,7 @@ def isrowcol(N, M, arr):
         for c in range(N-M+1):
             tmp_text = ''
             for c_idx in range(c, c+M):
-                tmp_text += arr[r[c_idx]]
+                tmp_text += arr[r][c_idx]
             if isPal(tmp_text):
                 return tmp_text
     
